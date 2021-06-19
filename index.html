@@ -1,0 +1,228 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.1/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-+0n0xVW2eSR5OomGNYDnhzAbDsOXxcvSN1TPprVMTNDbiYZCxYbOOl7+AMvyTG2x"
+      crossorigin="anonymous"
+    />
+    <link rel="preconnect" href="https://fonts.gstatic.com" />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Roboto:wght@100&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="style.css" />
+    <title>Adion Transportation Services</title>
+  </head>
+  <body>
+    <header>
+      <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+        <div class="container-fluid">
+          <span style="display: flex; align-items: center">
+            <a
+              style="font-size: xx-large; padding: 10px"
+              class="navbar-brand"
+              href="index.html"
+            >
+              <img
+                src="assets/bglog.png"
+                alt="main logo"
+                width="70"
+                height="60"
+              />
+              <strong id="none">Adion Transportation Services</strong></a
+            >
+          </span>
+          <button
+            class="navbar-toggler"
+            type="button"
+            data-bs-toggle="collapse"
+            data-bs-target="#navbarSupportedContent"
+            aria-controls="navbarSupportedContent"
+            aria-expanded="false"
+            aria-label="Toggle navigation"
+          >
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarSupportedContent">
+            <ul
+              class="navbar-nav me-auto mb-2 mb-lg-0"
+              id="mainnav"
+              style="display: flex; align-items: center"
+            >
+              <li class="nav-item" id="li-hov">
+                <a
+                  id="a1"
+                  class="nav-link active"
+                  style="
+                    color: rgb(180, 178, 178);
+                    font-weight: 1000;
+                    text-transform: uppercase;
+                  "
+                  aria-current="page"
+                  href="index.html"
+                  >Home</a
+                >
+              </li>
+              <li class="nav-item" id="li-hov">
+                <a
+                  class="nav-link"
+                  style="
+                    font-weight: 1000;
+                    color: white;
+                    text-transform: uppercase;
+                  "
+                  href="tickets.html"
+                  >Tickets</a
+                >
+              </li>
+              <li class="nav-item" id="li-hov">
+                <a
+                  class="nav-link"
+                  style="
+                    font-weight: 1000;
+                    color: white;
+                    text-transform: uppercase;
+                  "
+                  href="about.html"
+                  >About</a
+                >
+              </li>
+              <li class="nav-item" id="li-hov">
+                <a
+                  class="nav-link"
+                  style="font-weight: 1000; color: white"
+                  href="wtt.html"
+                  >WTT</a
+                >
+              </li>
+            </ul>
+          </div>
+        </div>
+      </nav>
+    </header>
+    <section id="slides">
+      <div
+        id="carouselExampleControls"
+        class="carousel slide"
+        data-bs-ride="carousel"
+      >
+        <div class="carousel-inner">
+          <div class="carousel-item active">
+            <img
+              src="assets/4.jpg"
+              style="height: 550px"
+              class="d-block w-100"
+              alt="..."
+            />
+          </div>
+          <div class="carousel-item">
+            <img
+              src="assets/1.jpg"
+              style="height: 550px"
+              class="d-block w-100"
+              alt="..."
+            />
+          </div>
+          <div class="carousel-item">
+            <img
+              src="assets/3.jpg"
+              class="d-block w-100"
+              style="height: 550px"
+              alt="..."
+            />
+          </div>
+        </div>
+        <button
+          class="carousel-control-prev"
+          type="button"
+          data-bs-target="#carouselExampleControls"
+          data-bs-slide="prev"
+        >
+          <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Previous</span>
+        </button>
+        <button
+          class="carousel-control-next"
+          type="button"
+          data-bs-target="#carouselExampleControls"
+          data-bs-slide="next"
+        >
+          <span class="carousel-control-next-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Next</span>
+        </button>
+      </div>
+    </section>
+
+    <section
+      id="cards"
+      style="display: flex; padding: 20px"
+      class="container-fluid"
+    >
+      <div id="d1" style="padding: 20px">
+        <div class="card" style="width: 18rem; padding: 20px">
+          <img src="assets/pass.png" class="card-img-top" alt="..." />
+          <div class="card-body">
+            <p class="card-text">
+              Visit any place from anywhere at any time with 10% discount in our
+              tickets section.
+              <a
+                href="tickets.html"
+                style="text-align: center; margin: 5px"
+                class="btn btn-danger"
+                >Tickets</a
+              >
+            </p>
+          </div>
+        </div>
+      </div>
+      <div id="d2" style="padding: 20px">
+        <div class="card" style="width: 18rem; padding: 20px">
+          <img src="assets/5.jpg" class="card-img-top" />
+          <div class="card-body">
+            <p class="card-text">
+              We conduct World Touring Tests(WTT) annually which is all India
+              test. For more information visit the page below
+            </p>
+            <a
+              href="wtt.html"
+              style="text-align: center; margin: 5px"
+              class="btn btn-danger"
+              >WTT</a
+            >
+          </div>
+        </div>
+      </div>
+      <div id="d3" style="padding: 20px">
+        <div class="card" style="width: 18rem; padding: 20px">
+          <img src="assets/black-logo.png" class="card-img-top" />
+          <div class="card-body">
+            <p class="card-text">For More visit Adion Other Websites:</p>
+            <a
+              href="https://aditya52330.github.io/adion/"
+              style="text-align: center; margin: 5px"
+              class="btn btn-danger"
+              target="_blank"
+              >Adion</a
+            >
+          </div>
+        </div>
+      </div>
+    </section>
+    <footer>
+      <div>
+        <p>&copy; Copyright 2021 | Adion Transportation Services</p>
+      </div>
+    </footer>
+  </body>
+  <script
+    src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.1/dist/js/bootstrap.bundle.min.js"
+    integrity="sha384-gtEjrD/SeCtmISkJkNUaaKMoLD0//ElJ19smozuHV6z3Iehds+3Ulb9Bn9Plx0x4"
+    crossorigin="anonymous"
+  ></script>
+  <script src="script.js"></script>
+</html>

@@ -1,0 +1,114 @@
+* {
+  font-family: "Roboto", sans-serif;
+  overflow-x: hidden;
+}
+
+header {
+  background-color: black;
+  color: white;
+}
+
+#logo span {
+  display: inline;
+}
+
+#one:hover {
+  cursor: pointer;
+}
+
+@keyframes hoverer {
+  from {
+    color: rgb(180, 178, 178);
+  }
+  to {
+    color: rgb(180, 178, 178);
+  }
+}
+
+@keyframes blink {
+  from {
+    color: green;
+  }
+  to {
+    color: indigo;
+  }
+}
+
+#m {
+  animation-name: blink;
+  animation-duration: 0.5s;
+  animation-iteration-count: infinite;
+}
+
+.list1 li {
+  padding: 20px;
+  font-weight: bolder;
+}
+
+#li-hov a:hover {
+  animation-name: hoverer;
+  animation-duration: 0.8s;
+  animation-iteration-count: infinite;
+}
+
+#slides {
+  border-bottom: lime 20px ridge;
+}
+
+#cards {
+  background-color: rgb(221, 216, 216);
+  justify-content: center;
+  flex-wrap: wrap;
+  border-bottom: greenyellow 10px double;
+}
+
+#btn1 {
+  width: 75%;
+  margin-top: 20px;
+}
+
+#mar {
+  margin: 20px 0 20px 0;
+}
+
+@keyframes lado {
+  from {
+    color: rgb(255, 251, 0);
+  }
+  to {
+    color: rgb(15, 255, 255);
+  }
+}
+
+#sub {
+  animation-name: lado;
+  animation-duration: 1s;
+  animation-iteration-count: infinite;
+}
+
+#pro {
+  margin: 20px;
+  padding: 15px;
+}
+
+#name {
+  padding: 20px 0 20px 0;
+}
+
+footer div p {
+  font-size: 1rem;
+  color: lightgray;
+  text-align: center;
+  padding: 10px;
+  background-color: lightseagreen;
+}
+
+@media (max-width: 700px) {
+  #none {
+    display: none;
+  }
+  .card {
+    margin-left: 0px;
+    margin-top: 20px;
+  }
+}
